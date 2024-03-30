@@ -21,7 +21,7 @@ public class MyMap<B1, B2> {
         }
     }
 
-    public B2 get(B2 key) {
+    public B2 get(B1 key) {
         int index = keys.indexOf(key);
         if (index == -1) {
             return null;
